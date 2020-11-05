@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+#landing {
+    position: relative;
+    height: 100%;
+    background-image: url("https://www.natare.com/wp-content/uploads/2016/01/IU-Natatorium-Pool-Indiana-University.jpg");
+    background-size: 1200px, 1000px;
+}
+
+#process,
+#mission,
+#approach,
+#goal {
+    border-radius: 25px;
+    border: 1.5px solid #00BFFF;
+    text-align: center;
+}
+
+.intro:hover{
+  background-color: #f5f5f5;
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+    background-color: #3f516d;
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-bottom: 5px;
+    padding: 50px;
+}
+
+#gallery,
+#contactus {
+    /* add selector */
+    background-color: #f5f5f5;
+}
+
+#gallery {
+    text-align: left;
+}
+
+#backing-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+progress {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    height: 30px;
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #5fc3e4;
+}
+
+button:hover {
+    background-color: #e55d87;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+#name,
+#email,
+#message {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3f516d;
+    padding: 10px;
+}
+
+.navi:hover {
+    color: white;
+}
+
+a {
+    margin: 8px;
+    color: #5fc3e4;
+    text-decoration: none;
+}
+
+#name input {
+    background-color: white;
+    border: 1.5px solid #00BFFF;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#name,
+#name input,
+#message,
+textarea{
+  padding-left:30px
+}
+
+
+#email input {
+    background-color: white;
+    border: 1.5px solid #00BFFF;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#message textarea {
+    background-color: white;
+    border: 1.5px solid #00BFFF;
+    border-radius: 5px;
+}
+
+#contact {
+    margin-top: 400px;
+  padding-left: 60px;
+}
+
+#message {
+    margin-top: 300px;
+}
+
+#promise {
+    text-align: center;
+}
+
+#backing-img {
+    position: relative;
+    top: 100px;
+}
+
+#coin {
+    width: 5%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#droplet {
+    width: 10%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#fitbit {
+    width: 80%;
+}
+
+#swimsuit {
+    width: 80%;
+}
+
+#walmart {
+    width: 70%;
+}
+
+#FB {
+    display: inline-block;
+    width: 200px;
+}
+
+#SS {
+    display: inline-block;
+    width: 200px
+}
+
+#WM {
+    display: inline-block;
+}
+
+.work {
+    display: inline-block;
+}
+
+#goal {
+    display: inline-block
+}
+
+#swimicon {
+    width: 10%
+}
+
+#contactus{
+  margin-top: -200px
+}
+
+#promise{
+  margin-bottom:-40px;
+}
+
+#signup{
+  padding-left: 100px
+}
